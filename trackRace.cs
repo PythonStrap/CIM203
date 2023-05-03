@@ -73,8 +73,6 @@ public class trackRace : MonoBehaviour
                 timerIsRunning = false;
                 startRacing();
 
-                // laps.text = "0/3";
-
             }
         }
 
@@ -152,33 +150,6 @@ public class trackRace : MonoBehaviour
         Debug.Log("startRacing called");
         startRace = true;
     }
-
-   /** void resetRace()
-    {
-        Debug.Log("RESET scalled");
-
-        Vector3 marsPosition = new Vector3(-1122.6f, 100.0f, 717.3f);
-        mars.transform.position = marsPosition; //assigning sphere position
-
-        Vector3 venusPosition = new Vector3(-1122.6f, -88.2f, 717.3f);
-        venus.transform.position = venusPosition; //assigning cube position
-
-        Vector3 neptunePosition = new Vector3(-1122.6f, -296.7f, 717.3f);
-        neptune.transform.position = neptunePosition; //assigning third object position
-
-    
-
-        // winning.text = "Start Race!!";
-    }
-   */
-
-   /* public void assignWinner()
-    {
-        string winner;
-       winner = whoWon;
-        Debug.Log(winner);
-    }
-   */
 
   
 }
