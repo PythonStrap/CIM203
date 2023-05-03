@@ -42,10 +42,7 @@ public class positionWinner : MonoBehaviour
         place.Add("Venus won");
         place.Add("Neptune won");
 
-        // var result = Array.Find(place, element => element == winner);
-        //  this.transform.GetComponent<AudioSource>().clip = sounds[audioTrack];
-
-        //Debug.Log(winner);
+     
         for (int i = 0; i < place.Count; i++)
         {
             Debug.Log(winner);
@@ -93,12 +90,7 @@ public class positionWinner : MonoBehaviour
 
                 break;
             }
-            else
-            {
-                Debug.Log("Mars lost");
-               
-            }
-
+           
             if (winner == place[1].ToString())
             {
                
@@ -129,11 +121,7 @@ public class positionWinner : MonoBehaviour
 
                 break;
             }
-            else
-            {
-                Debug.Log("venus lost");
-               
-            }
+           
 
             if (winner == place[2].ToString())
             {
@@ -163,11 +151,7 @@ public class positionWinner : MonoBehaviour
                 break;
 
             }
-            else
-            {
-                Debug.Log("neptune lost");
-               
-            }
+           
         }
         
     }
